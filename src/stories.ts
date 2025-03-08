@@ -1,3 +1,3 @@
-import { FC } from 'react';
+import { PlainState } from './stories/plain-state.tsx';
 
-export const stories: Record<string, FC> = { Starter: () => null };
+export const stories = { PlainState };
